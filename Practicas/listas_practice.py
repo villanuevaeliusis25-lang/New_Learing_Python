@@ -48,7 +48,7 @@ print(newjeanz_songs)
 fods  = ("sushi", "ramen", "tacos", "pizza", "hamburguesa")
 for fod in fods:
     print(f"{fod.title()} es delicioso")
-print("el restaurante escogio otro menu")
+print("el restaurante se reinventa y cambia el menu")
 fods = ("spagetti", "ensalada", "paella", "charke", "milanesa")
 for fod in fods:
     print(f"{fod.title()} new!")
