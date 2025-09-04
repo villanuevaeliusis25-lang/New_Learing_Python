@@ -31,6 +31,7 @@ print(f"la ultima cancion escuchada es {listen_songs}")
 love_songs = "ETA"
 newjeans_songs.remove(love_songs) #eliminamos "Hybe" de la lista
 #pero sigue tenemos a "hybe" en la variable love_songs
+#tambien podemos usar ".clear()" para eliminar todos los elementos de la lista
 
 #                       ORDENAR UNA LISTA
 #Podemos ordenar una lista de forma permanente o temporal
