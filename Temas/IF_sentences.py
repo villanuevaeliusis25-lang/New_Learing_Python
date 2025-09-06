@@ -87,7 +87,7 @@ else: # Si la lista esta vacia
     print("Are you sure you want a plain pizza?") # Le preguntamos si quiere una pizza sin nada
 
 #Con MULTIPLES LISTAS 
-# que pasa si queremos compbinar listas, entre los ingredientes disponibles y lo que quiere el cliente
+# que pasa si queremos combinar listas, entre los ingredientes disponibles y lo que quiere el cliente
 avaible_topings = ["mushroom", "oliver", "green peppers", "pepperoni", "pineapple", "extra cheese"]
 #son los ingredientes disponibles
 requests_topings = ["mushroom", "french fries", "extra chesse"]
