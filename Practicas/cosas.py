@@ -63,4 +63,10 @@ def adivina_palabra():
         print(f"La palabra secreta era: '{palabra_secreta.title()}'.")
 
 # Inicia el juego
-adivina_palabra()
+while True:
+    adivina_palabra()
+    
+    jugar_de_nuevo = input("\n¿Quieres jugar de nuevo? (si/no): ").lower()
+    if jugar_de_nuevo != "si":
+        print("¡Gracias por jugar! ¡Hasta pronto!")
+        break
