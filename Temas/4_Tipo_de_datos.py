@@ -15,9 +15,7 @@ temperatura = -20.5
 # Texto (str) 📝
 saludo = "Hola Mundo"
 nombre = 'Ana'
-multilinea = """Esto es
-un texto
-multilínea"""
+multilinea = """Esto es un texto multilínea"""
 
 # Booleanos (bool) ✅❌
 es_verdadero = True
