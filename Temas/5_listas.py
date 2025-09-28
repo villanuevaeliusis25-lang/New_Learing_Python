@@ -1,4 +1,4 @@
-                        #        LISTAS 
+#                           LISTAS 
 
 #una lista es una coleccion de elementos en un orden determinado
 #se definen con corchetes []
