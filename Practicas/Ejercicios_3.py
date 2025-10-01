@@ -27,9 +27,9 @@ def es_palindromo(palabra):
 
 #                       ANALIZADOR DE TEXTO 
 # Analiza: el numero de palabras
-#          la palabra mas larga
-#          frecuencia de palabras
-#          logitud promedio 
+#          -la palabra mas larga
+#          -frecuencia de palabras
+#          -logitud promedio 
 def analizar_texto(texto):
     palabras = texto.split() #"split()" divide por espacios
     num_palabras = len(palabras)
