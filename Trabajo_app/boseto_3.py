@@ -191,3 +191,6 @@ print("⭐ CONCLUSIÓN DEL VALOR AGREGADO DE LA APP:")
 print(f"  - Reducción de Viajes en Vano: {round(resultados_sin_app['Tasa_Vano'] - resultados_con_app['Tasa_Vano'], 2)} puntos porcentuales (Mejora la SATISFACCIÓN)")
 print(f"  - Aumento de Ahorro Financiero: Bs. {round(resultados_con_app['Ahorro_Financiero_Total'] - resultados_sin_app['Ahorro_Financiero_Total'], 2)} (Mejora la RENTABILIDAD)")
 print("----------------------------------------------------------------------")
+
+from graficos_3 import generar_graficos_comparativos
+generar_graficos_comparativos(resultados_sin_app, resultados_con_app)

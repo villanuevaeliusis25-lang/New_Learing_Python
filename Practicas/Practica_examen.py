@@ -1,6 +1,6 @@
 #Crear una función pares() que imprima todos los números pares entre 1 y 50 usando un 
 def pares():
-    for n in range(0,51):
+    for n in range(0,51,2):
         if n % 2 == 0:
             print(n)
 pares()
